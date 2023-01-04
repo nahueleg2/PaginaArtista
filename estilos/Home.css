@@ -32,13 +32,16 @@ nav{
     margin-top: 8px;
     box-sizing: border-box;
 }
+/* imagen principal*/
 .logo a img{
     width: 120px;
     box-sizing: border-box;
 }
+
+/* Estilos para botones de redes sociales */
+
 nav ul li{
     display: inline;
-    
 }
 nav ul li a{
     text-decoration: none;
@@ -51,7 +54,7 @@ nav ul li a{
     color: black;
 }
 nav ul li a:hover{
-    color: rgb(18, 209, 11);
+    color: rgb(11, 175, 5);
 }
 
 .primera img{
@@ -85,7 +88,7 @@ nav ul li a:hover{
 }
 .redes-container ul li a:hover{
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.7);
+    box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.6);
     filter: none;
 }
 .redes-container ul li .facebook:hover{
