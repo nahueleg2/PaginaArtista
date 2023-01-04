@@ -83,3 +83,24 @@ nav ul li a:hover{
 .redes-container ul:hover a{
     filter: blur(2px);
 }
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.7);
+    filter: none;
+}
+.redes-container ul li .facebook:hover{
+    background-color: #3b5999;
+    color: white;
+}
+.redes-container ul li .instagram:hover{
+    background-color: #C13584;
+    color: white;
+}
+.redes-container ul li .youtube:hover{
+    background-color: #FF0000;
+    color: white;
+}
+.redes-container ul li .spotify:hover{
+    background-color: #1DB954;
+    color: white;
+}
