@@ -8,7 +8,7 @@ body{
 
 /* Estilos para Menu */
 
-header{
+.seccion-menu{
     width: 100%;
     background-color: white;
     height: 60px;
@@ -106,4 +106,65 @@ nav ul li a:hover{
 .redes-container ul li .spotify:hover{
     background-color: #1DB954;
     color: white;
+}
+
+/* estilos para seccion informativa*/
+
+.parrafo-imagen{
+    width: 100%;
+}
+.secciones{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+.seccion-info{
+    width: 50%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+}
+.seccion-img{
+    width: 50%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.linea-corta{
+   margin-bottom: 40px;
+}
+.linea-larga{
+    margin-top: 40px;
+ }
+.raices{
+    color: white;
+    /*margin-left: 70px;*/
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.seccion-info p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.seccion-img img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+.novedades{
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
 }
