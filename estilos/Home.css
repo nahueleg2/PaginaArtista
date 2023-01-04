@@ -80,3 +80,6 @@ nav ul li a:hover{
     box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.3);
     transition: 0.2s;
 }
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
